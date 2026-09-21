@@ -1,6 +1,6 @@
 import React from 'react';
 import convertTime from '../../utils/convertTime';
-import { BASE_URL, token } from './../../config';
+import { BASE_URL } from './../../config';
 import { toast } from 'react-toastify';
 
 const SidePanel = ({ doctorId, ticketPrice, timeSlots }) => {
@@ -16,7 +16,7 @@ const SidePanel = ({ doctorId, ticketPrice, timeSlots }) => {
       const res = await fetch(`${BASE_URL}/bookings/checkout-session/${doctorId}`, {
         method: 'POST',
         headers: {
-          'Authorization': `Bearer ${token}`,
+          'Authorization': `Bearer ${localStorage.getItem("token")}`,
           'Content-Type': 'application/json'
         }
       });
