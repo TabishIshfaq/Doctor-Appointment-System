@@ -6,15 +6,15 @@ import { AiFillGithub, AiFillInstagram } from 'react-icons/ai' // Updated import
 
 const socialLinks = [
   {
-    path: "https://www.instagram.com/malik.muhammad.rafay?igsh=MXJ1NHlrcGY5cnhseA%3D%3D&utm_source=qr",
+    path: "https://www.linkedin.com/in/muhammad-tabish-malik/",
     icon: <AiFillInstagram className="group-hover:text-while w-4 h-5"/>, // Updated icon
   },
   {
-    path: "https://github.com/MRafay620",
+    path: "https://github.com/TabishIshfaq",
     icon: <AiFillGithub className="group-hover:text-while w-4 h-5"/>,
   },
   {
-    path: "https://www.linkedin.com/in/muhammad-rafay-283499227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    path: "https://www.linkedin.com/in/muhammad-tabish-malik/",
     icon: <RiLinkedinFill className="group-hover:text-while w-4 h-5"/>,
   },
 ];
