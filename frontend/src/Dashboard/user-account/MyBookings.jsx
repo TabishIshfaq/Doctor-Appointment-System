@@ -27,7 +27,7 @@ const MyBookings = () => {
                 <h3 className='text-[16px] font-bold text-headingColor'>{doctor.name}</h3>
                 <p className='text-textColor text-[14px]'>{doctor.specialization}</p>
                 <span className='text-[13px] bg-green-100 text-green-600 font-semibold px-2 py-1 rounded-full mt-1 inline-block'>
-                  ✅ Aap ki appointment confirmed hai
+                  ✅ Appoitment Confirmed
                 </span>
               </div>
             </div>
